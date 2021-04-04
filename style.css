@@ -1,0 +1,25 @@
+/* Basic Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+  color: rgb(0, 238, 255);
+  font-size: 30px;
+  word-spacing: 3px;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(27, 27, 27);
+  display: grid;
+  place-items: center;
+}
+
+
+.clock {
+  padding: 10px 15px;
+  border-radius: 30px;
+  border: 1px outset rgb(41, 41, 41);
+}
